@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+
+<body>
+    <section class="protection" id="protection">
+        <div class="container">
+            <div class="protection-content d-flex">
+                <div class="protection-block_text">
+                    <a href="#" class="logo">
+                        <img src="img/logo.png" class="logo-img" alt="image">
+                    </a>
+                    <h1 class="block-text_title">
+                        100% защита дома<br>от вирусов<br>и микробов
+                    </h1>
+
+                    <div class="protection-block_list d-flex">
+                        <div class="protection-list">
+                            <div class="list-item d-flex">
+                                <img src="img/Exclude.png" alt="image">
+                                <p class="list-text">
+                                    Убивает все известные<br> вирусы и микробы
+                                </p>
+                            </div>
+                            <div class="list-item d-flex">
+                                <img src="img/Exclude.png" alt="image">
+                                <p class="list-text">
+                                    Защищает поверхности от<br> микробов 48 часов
+                                </p>
+                            </div>
+                            <div class="list-item d-flex">
+                                <img src="img/Exclude.png" alt="image">
+                                <p class="list-text">
+                                    Подходит для любых<br> поверхностей
+                                </p>
+                            </div>
+                        </div>
+                        <img src="img/bottle.png" class="bottle-img" alt="image">
+                    </div>
+                </div>
+                <div class="protection-form">
+                    <form action="success.php" class="js-form" id="popupResult">
+                        <h2 class="form-title">
+                            Специальное<br> предложение!
+                        </h2>
+                        <p class="form-text">
+                            Специальная цена<br><span>179&#8381*</span>
+                        </p>
+                        <select name="country" class="form-control" id="select">
+                            <option selected value="RU">Россия</option>
+                            <option value="UA">Украина</option>
+                            <option value="BL">Белоруссия</option>
+                        </select>
+                        <input type="text" name="name" required placeholder="Имя" class="form-control form__field">
+                        <input type="text" name="tel" required placeholder="Телефон" class="form-control form__field">
+                        <button class="btn__red__bottom act font-bold" data-submit>Заказать</button>
+
+                        <p class="form-text_bottom">*при заказе набора</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body></html>
